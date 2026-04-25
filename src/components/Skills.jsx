@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger)
 const skillCategories = [
   {
     label: 'Languages',
-    skills: ['Python', 'Java', 'JavaScript', 'TypeScript', 'SQL'],
+    skills: ['Python', 'Java', 'JavaScript', 'SQL'],
     accent: 'var(--color-accent)',
   },
   {
@@ -24,12 +24,12 @@ const skillCategories = [
   },
   {
     label: 'Systems & Infra',
-    skills: ['API Integration', 'Real-time Pipelines', 'WebSockets', 'Docker', 'Kubernetes'],
+    skills: ['API Integration', 'Real-time Pipelines', 'WebSockets'],
     accent: 'var(--color-accent-2)',
   },
   {
     label: 'Tools & Frameworks',
-    skills: ['Git', 'Flask', 'Spring Boot', 'React', 'MongoDB', 'MySQL', 'Pandas', 'NumPy'],
+    skills: ['Git', 'Flask', 'React', 'MongoDB', 'MySQL', 'Pandas', 'NumPy'],
     accent: 'var(--color-accent)',
   },
 ]
