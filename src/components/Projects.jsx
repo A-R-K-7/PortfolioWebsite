@@ -25,22 +25,6 @@ const projects = [
   },
   {
     num: '02',
-    title: 'AI-Driven Behavioural Companion',
-    subtitle: 'Multi-Platform Health AI',
-    description:
-      'Multi-platform AI system for emotional state classification and stress level regression from physiological data. Personalized baseline modeling with anomaly detection, deployed on Docker and Kubernetes for low-latency real-time inference.',
-    tech: ['PyTorch', 'Scikit-learn', 'Docker', 'Kubernetes', 'React'],
-    highlights: [
-      'Stress classification',
-      'Mood regression',
-      'Anomaly detection',
-      'Spring Boot backend',
-    ],
-    accent: 'var(--color-accent-2)',
-    github: 'https://github.com/A-R-K-7/BehaviouralCompanion',
-  },
-  {
-    num: '03',
     title: 'Automated Trading Platform',
     subtitle: 'FlatTradeWeb — Sell Automation',
     description:
@@ -56,7 +40,7 @@ const projects = [
     github: 'https://github.com/A-R-K-7/FlatTradeWeb-With-Sell-Automation',
   },
   {
-    num: '04',
+    num: '03',
     title: 'Cross-Platform Expense Tracker',
     subtitle: 'MyExpenseTracker — React Native',
     description:
@@ -70,6 +54,22 @@ const projects = [
     ],
     accent: 'var(--color-accent-2)',
     github: 'https://github.com/A-R-K-7/MyExpenseTracker',
+  },
+  {
+    num: '04',
+    title: 'AI-Driven Behavioural Companion (In Progress)',
+    subtitle: 'Multi-Platform Health AI',
+    description:
+      'Multi-platform AI system for emotional state classification and stress level regression from physiological data. Personalized baseline modeling with anomaly detection for low-latency real-time inference.',
+    tech: ['PyTorch', 'Scikit-learn', 'React'],
+    highlights: [
+      'Stress classification',
+      'Mood regression',
+      'Anomaly detection',
+      'Personalized baselines',
+    ],
+    accent: 'var(--color-accent-2)',
+    github: 'https://github.com/A-R-K-7/BehaviouralCompanion',
   },
 ]
 

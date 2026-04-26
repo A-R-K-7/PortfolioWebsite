@@ -21,16 +21,7 @@ export default function Footer() {
           </span>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="label-text"
-          style={{ color: 'var(--color-text-muted-light)' }}
-        >
-          Designed & built with React + Framer Motion
-        </motion.div>
+
       </div>
     </footer>
   )
