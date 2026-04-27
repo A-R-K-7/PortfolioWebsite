@@ -57,6 +57,22 @@ const projects = [
   },
   {
     num: '04',
+    title: 'YouTube Video Downloader and Converter',
+    subtitle: 'YouTVD — Web App',
+    description:
+      'Web application built using Flask and SocketIO to download and convert YouTube videos to MP4 format. Supports direct downloads for both single videos and playlists with automatic moving to the system Downloads folder.',
+    tech: ['Python', 'Flask', 'SocketIO', 'yt-dlp', 'ffmpeg'],
+    highlights: [
+      'Playlist support',
+      'MP4 conversion',
+      'Direct downloads',
+      'Real-time sockets',
+    ],
+    accent: 'var(--color-accent-2)',
+    github: 'https://github.com/A-R-K-7/YouTVD',
+  },
+  {
+    num: '05',
     title: 'AI-Driven Behavioural Companion (In Progress)',
     subtitle: 'Multi-Platform Health AI',
     description:
