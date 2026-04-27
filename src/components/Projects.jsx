@@ -36,7 +36,7 @@ const projects = [
       'Modular strategies',
       'Market API integration',
     ],
-    accent: 'var(--color-accent)',
+    accent: 'var(--color-accent-2)',
     github: 'https://github.com/A-R-K-7/FlatTradeWeb-With-Sell-Automation',
   },
   {
@@ -52,7 +52,7 @@ const projects = [
       'CI/CD pipeline',
       'TestFlight deploy',
     ],
-    accent: 'var(--color-accent-2)',
+    accent: 'var(--color-accent)',
     github: 'https://github.com/A-R-K-7/MyExpenseTracker',
   },
   {
@@ -84,7 +84,7 @@ const projects = [
       'Anomaly detection',
       'Personalized baselines',
     ],
-    accent: 'var(--color-accent-2)',
+    accent: 'var(--color-accent)',
     github: 'https://github.com/A-R-K-7/BehaviouralCompanion',
   },
 ]
